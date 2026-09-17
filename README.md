@@ -45,7 +45,7 @@ Also standardized: ~10 duplicate brand names (e.g. `ford tk`, `ford truck` → `
 ## Project Structure
 
 ```
-├── car_sales_cleaning.ipynb           # Data cleaning & analysis
+├── car_sales_cleaning.ipynb           # Data cleaning
 ├── vehicle_sales_presentation.pdf     # Full slide deck with charts
 └── README.md
 ```
