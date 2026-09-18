@@ -26,7 +26,7 @@ An exploratory analysis of ~500,000 used vehicle listings from the US market, co
 
 ## Data Cleaning
 
-Raw data was cleaned and validated in `notebooks/car_sales_cleaning.ipynb` before analysis:
+Raw data was cleaned and validated in `car_sales_cleaning.ipynb` before analysis:
 
 | Step | Rows removed | Rows remaining |
 |---|---|---|
@@ -46,7 +46,7 @@ Also standardized: ~10 duplicate brand names (e.g. `ford tk`, `ford truck` → `
 
 ```
 ├── car_sales_cleaning.ipynb           # Data cleaning
-├── vehicle_sales_presentation.pdf     # Full slide deck with charts
+├── Vehicle_Sales_Analysis.pdf         # Full slide deck with charts
 └── README.md
 ```
 
