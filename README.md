@@ -12,7 +12,11 @@ An exploratory analysis of ~500,000 used vehicle listings from the US market, co
 
 **Market structure:** Sedans and SUVs together account for over 70% of all sales. Ford leads with \~95K sales, nearly double second-place Chevrolet (\~60K). Automatic transmission dominates at 80%+.
 
+![Sales by body type](images/sales_by_body_type.png)
+
 **Mileage vs price (R² ≈ 0.53, exponential fit):** Price decays exponentially with mileage, not linearly — the steepest drop happens in the first \~50,000 miles. A car loses \~40% of its value by 50,000 miles and \~63% by 100,000 miles; above 150,000+ miles, residual value drops to $1,000–2,000. Mileage alone explains roughly half the price variation across individual listings — the rest comes from make, condition, and year.
+
+![Price dependency on mileage](images/price_vs_mileage.png)
 
 **Depreciation by age:** Cars newer than 5 years retain value aggressively — each model year adds $1,000–2,000. After 10 years, depreciation slows significantly.
 
@@ -21,6 +25,8 @@ An exploratory analysis of ~500,000 used vehicle listings from the US market, co
 **Brand range:** Rolls-Royce averages ~$156,000 vs Saturn at \~$3,500 — a 44× difference. The cheapest mainstream brands (Saturn, Pontiac, Mercury) are discontinued, explaining their low secondary market prices.
 
 **Color preferences:** Neutral colors (black, white, gray, silver) account for 73% of all sales.
+
+![Popular car colors](images/popular_colors.png)
 
 ---
 
